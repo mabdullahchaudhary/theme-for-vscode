@@ -1,0 +1,47 @@
+{
+  "name": "eazypizy-themes",
+  "displayName": "EazyPizy Themes",
+  "description": "A collection of world-class dark themes for VS Code with three unique dark mode variants: EazyPizy Dark, Midnight, and Espresso.",
+  "version": "0.1.0",
+  "publisher": "eazypizy",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "EazyPizy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eazypizy-dark.json"
+      },
+      {
+        "label": "EazyPizy Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eazypizy-midnight.json"
+      },
+      {
+        "label": "EazyPizy Espresso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eazypizy-espresso.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eazypizy/vscode-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "vscode",
+    "eazypizy",
+    "midnight",
+    "espresso",
+    "neon",
+    "slate"
+  ],
+  "license": "MIT"
+}
